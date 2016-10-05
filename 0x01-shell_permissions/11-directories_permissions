@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type bcdlps -exec chmod -R a+x '{}' \
+chmod -R a+x .
