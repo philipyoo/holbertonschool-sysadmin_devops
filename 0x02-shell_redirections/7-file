@@ -1,2 +1,2 @@
 #!/bin/bash
-echo Holberton School > touch \*\\'"Holberton School"\'\\*$\?\*\*\*\*\*:\)
+echo "Holberton School\n" > "\*\\\'\"Holberton School\"\'\\\*$\?\*\*\*\*\*:)"
