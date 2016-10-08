@@ -58,3 +58,8 @@ Usage: find [-H] [-L] [-P] [-Olevel] [-D help|tree|search|stat|rates|opt|exec] [
 ### However, if I just did:
 $ find -name *.js -type f | wc -l
 This works and returns the output I look for. I guess the extra `ls` command is unneccessary, but am curious why the quotations matter only in certain cases.
+
+
+----
+
+### For exercise 12, `wc -l` returns 10 results, but when running the script, I can only count 9. Need to double check this.
