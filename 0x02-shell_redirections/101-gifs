@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -name \*.gif -printf "%f\n" | sort -k5
