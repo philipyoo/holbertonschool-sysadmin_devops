@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -c 1 An\ Acrostic | tr -d '\n' | xargs echo
+cut -c 1 An\ Acrostic | tr -d '\n' | paste '\n'
