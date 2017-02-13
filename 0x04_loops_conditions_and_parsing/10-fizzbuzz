@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# This script displays numbers from 1 to 100.
+# If number is multiple of 3 and 5, display FizzBuzz instead.
+# If number is multiple of 3, display Fizz instead.
+# If number is multiple of 5, display Buzz instead.
+for i in `seq 1 100`;
+do
+    if [ $((i % 15)) -eq 0 ]; then
+	echo FizzBuzz
+    elif [ $((i % 3)) -eq 0 ]; then
+	echo Fizz
+    elif [ $((i % 5)) -eq 0 ]; then
+	echo Buzz
+    else
+	echo $i
+    fi
+done
