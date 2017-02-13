@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script displays "Holberton School" 10 times
+# This script displays Hi on 9th line, Holberton School every other line
 COUNTER=1
 while [ $COUNTER -le 10 ]; do
       if [ $COUNTER -eq 9 ]

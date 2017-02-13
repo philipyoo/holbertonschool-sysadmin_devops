@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
-# This script displays "Holberton School" 10 times
+# This script displays "bad luck" on 4th loop.
+# "good luck" on 8th loop
+# "Holberton School" on every other line up to 10 lines
 COUNTER=1
 while [ $COUNTER -le 10 ]; do
       if [ $COUNTER -eq 4 ]

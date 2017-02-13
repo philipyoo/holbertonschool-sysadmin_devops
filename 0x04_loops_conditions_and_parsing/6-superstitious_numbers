@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
-# This script displays "Holberton School" 10 times
+# This script displays "bad luck from China" on loop 4.
+# "bad luck from Japan" on loop 9.
+# "bad luck from Italy on loop 17.
+# Also displays a counter from 1 to 20 on every line.
 COUNTER=1
 while [ $COUNTER -le 20 ]; do
     echo $COUNTER
