@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # This script displays all files in current directory
 # without a number and dash if file starts with it.
-for i in $( ls ); do
-    echo $i | cut -d'-' -f2
+for i in *; do
+    echo "$i" | cut -d'-' -f2
 done
