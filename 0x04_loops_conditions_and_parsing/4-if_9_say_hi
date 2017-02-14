@@ -2,11 +2,11 @@
 # This script displays Hi on 9th line, Holberton School every other line
 COUNTER=1
 while [ $COUNTER -le 10 ]; do
-      if [ $COUNTER -eq 9 ]
-      then
+    echo Holberton School
+
+    if [ $COUNTER -eq 9 ]
+    then
 	echo Hi
-      else
-	echo Holberton School
-      fi
-      let COUNTER+=1
+    fi
+    let COUNTER+=1
 done
