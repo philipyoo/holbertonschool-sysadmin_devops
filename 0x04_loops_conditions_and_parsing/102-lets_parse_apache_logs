@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# This script parses an Apache log access file by ip address using awk.
+awk 'BEGIN { FS = " " } ; { print $1, $9 }' apache-access.log
