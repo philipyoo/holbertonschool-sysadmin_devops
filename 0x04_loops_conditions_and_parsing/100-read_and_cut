@@ -3,6 +3,5 @@
 # Colon separated username, group id, and shell full path for user.
 while read line
 do
-#    echo $line
     echo "$line" | cut -d':' -f1,3,6
 done </etc/passwd
