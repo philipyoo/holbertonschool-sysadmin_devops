@@ -3,7 +3,7 @@
 # up to 12 hours
 HOUR=0
 MINUTE=1
-while [ $HOUR -lt 12 ]; do
+while [ $HOUR -le 12 ]; do
     echo "Hour: ${HOUR}"
     while [ $MINUTE -lt 60 ]; do
 	echo $MINUTE
@@ -12,4 +12,3 @@ while [ $HOUR -lt 12 ]; do
     let MINUTE=0
     let HOUR+=1
 done
-echo "Hour: ${HOUR}"
