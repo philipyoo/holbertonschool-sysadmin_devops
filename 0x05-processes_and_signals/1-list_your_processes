@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+ps -A --format user,pid,%cpu,%mem,vsz,rss,tty,stat,start,time,command
