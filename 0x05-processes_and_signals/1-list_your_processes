@@ -1,2 +1,6 @@
 #!/usr/bin/env bash
-ps -A --format user,pid,%cpu,%mem,vsz,rss,tty,stat,start,time,command
+# This script displays a list of currently running processes.
+# Must show all processes, for all users.
+# Displays a user-oriented format.
+# Shows process hierarchy.
+ps -auxf
