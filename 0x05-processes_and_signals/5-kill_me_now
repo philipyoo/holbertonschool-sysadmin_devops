@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Duplicate exercise 4, but use kill to stop process.
+trap "kill $$" SIGINT
+
+./4-to_infinity_and_beyond
