@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Script that kills exercise 4's process.
+# Cannot use kill or killall.
+pkill -f 4-to_infinity_and_beyond
