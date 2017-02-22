@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Create a RSA key pair
+# Name of private key must be holberton
+# Number of bits in created key should be 4096
+# Key must be protected by a passphrase
+ssh-keygen -b 4096 -f holberton -t rsa -P hello
