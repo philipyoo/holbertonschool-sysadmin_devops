@@ -14,13 +14,13 @@ stop_p() {
 }
 
 has_arg_1() {
-    if [ $CMD == "start" ]; then
+    if [ "$CMD" == "start" ]; then
 	start_p
 	echo "manage_my_process started"
-    elif [ $CMD == "stop" ]; then
+    elif [ "$CMD" == "stop" ]; then
 	stop_p
 	echo "manage_my_process stopped"
-    elif [ $CMD == "restart" ]; then
+    elif [ "$CMD" == "restart" ]; then
 	stop_p
 	start_p
 	echo "manage_my_process restarted"
