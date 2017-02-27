@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Transfer a file from client to server
 if [ $# -lt 3 ]; then
     echo "Usage: 0-transfer_file PATH_TO_FILE IP USERNAME PATH_TO_SSH_KEY"
 else
