@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Install nginx on my web01 server
+# Nginx should be listening on port 80
+# When sent a GET request at root, return a page that contains at least
+# one string "Holberton School"
+sudo apt-get -y install nginx
+sudo service nginx start
+echo "Holberton School" | sudo tee /usr/share/nginx/html/index.html
