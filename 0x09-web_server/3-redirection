@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Install nginx on my web01 server
+# Configure nginx server so /redirect_me is redirecting to another page
+# Redirection must be a 301 moved permanently
+sudo apt-get -y install nginx
+sudo service nginx start
+sudo sed -i "37i\rewrite ^/redirect_me$ http://philipyoo.tech permanent;" /etc/nginx/sites-available/default
+sudo service nginx restart
