@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+mysqldump --all-databases -uroot -p"$1" -rbackup.sql
+tar -cvzf "$(date +%m-%d-%Y).tar.gz" ./backup.sql
