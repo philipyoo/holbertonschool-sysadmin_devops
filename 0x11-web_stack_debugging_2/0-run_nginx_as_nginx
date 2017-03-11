@@ -5,6 +5,7 @@ sed -i 's/#user www-data/user nginx/' /etc/nginx/nginx.conf
 sed -i 's/listen 80/listen 8080/g' /etc/nginx/sites-enabled/default
 sed -i "s/\[::\]:80 default_server/\[::\]:8080 default_server/g" /etc/nginx/sites-enabled/default
 sed -i 's/listen 80/listen 8080/g' /etc/nginx/sites-available/default
+sed -i "s/\[::\]:80 default_server/\[::\]:8080 default_server/g" /etc/nginx/sites-available/default
 chown -R nginx /etc/nginx /var/log/nginx
 chmod 755 -R /etc/nginx /var/log/nginx
 service nginx start
