@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 # Run nginx as user nginx, including the master process
-kill -9 apache2
+pkill apache2
+sed -i 's/80/8080/g' /etc/nginx/sites-enabled/default /etc/nginx/sites-available/default
 chown -R nginx /etc/nginx /var/log/nginx /usr/share/nginx
 chmod 755 /etc/nginx/nginx.conf
-sed -i 's/#user www-data/user nginx/' /etc/nginx/nginx.conf
-sed -i 's/80/8080/g' /etc/nginx/sites-enabled/default /etc/nginx/sites-available/default
 su - nginx -c nginx
