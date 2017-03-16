@@ -8,4 +8,4 @@ sed -i 's/listen 80/listen 8080/g' /etc/nginx/sites-enabled/default
 sed -i "s/\[::\]:80 default_server/\[::\]:8080 default_server/g" /etc/nginx/sites-enabled/default
 sed -i 's/listen 80/listen 8080/g' /etc/nginx/sites-available/default
 sed -i "s/\[::\]:80 default_server/\[::\]:8080 default_server/g" /etc/nginx/sites-available/default
-service nginx restart
+su - nginx 'service nginx restart'
