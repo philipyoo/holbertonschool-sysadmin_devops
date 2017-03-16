@@ -3,5 +3,5 @@
 pkill apache2
 sed -i 's/80/8080/g' /etc/nginx/sites-enabled/default /etc/nginx/sites-available/default
 chown -R nginx /etc/nginx /var/log/nginx /usr/share/nginx
-chmod 755 /etc/nginx/nginx.conf
-su - nginx -c nginx
+chmod 777 /etc/nginx/nginx.conf
+su nginx -c nginx
