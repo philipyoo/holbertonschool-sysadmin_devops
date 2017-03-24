@@ -1,3 +1,4 @@
+# Create a file called holberton in the /tmp directory
 file { '/tmp/holberton':
   ensure  => file,
   path    => '/tmp/holberton',
