@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
 Extend the python script from exercise 0 to export data in CSV format.
-Record all taks that are owned by the employee.
+Record all tasks that are owned by the employee.
 Format must be: "USER_ID","USERNAME","TASK_COMPLETED_STATUS","TASK_TITLE"
 File name must be: USER_ID.csv
 """
