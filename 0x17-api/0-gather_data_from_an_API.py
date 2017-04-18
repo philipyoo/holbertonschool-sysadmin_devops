@@ -5,8 +5,8 @@ and filters the data based on an argument passed to the script.
 The argument is the employee ID, and the output should display the employee
 name and the tasks the employee completed.
 """
-import sys
 import requests
+import sys
 
 if __name__ == "__main__":
     eid = sys.argv[1]

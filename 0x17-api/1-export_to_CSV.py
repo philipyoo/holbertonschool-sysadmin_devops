@@ -5,9 +5,9 @@ Record all tasks that are owned by the employee.
 Format must be: "USER_ID","USERNAME","TASK_COMPLETED_STATUS","TASK_TITLE"
 File name must be: USER_ID.csv
 """
-import sys
 import csv
 import requests
+import sys
 
 if __name__ == "__main__":
     eid = sys.argv[1]

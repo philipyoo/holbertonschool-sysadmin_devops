@@ -10,9 +10,9 @@ Format must be: {"USER_ID": [ {"task": TASK_TITLE,
                             ]
 File name must be: USER_ID.json
 """
-import sys
 import json
 import requests
+import sys
 
 if __name__ == "__main__":
     eid = sys.argv[1]
