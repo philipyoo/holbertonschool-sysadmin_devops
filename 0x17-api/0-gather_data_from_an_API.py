@@ -22,7 +22,7 @@ if __name__ == "__main__":
             if (task.get("completed")):
                 done_tasks.append(task.get("title"))
 
-    print("Employee {} is done with tasks ({:d}/{:d}):"
+    print("Employee {} is done with tasks({:d}/{:d}):"
           .format(name, len(done_tasks), total_tasks))
 
     for item in done_tasks:
