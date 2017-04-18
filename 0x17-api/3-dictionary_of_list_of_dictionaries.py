@@ -24,8 +24,7 @@ if __name__ == "__main__":
         all_tasks = []
 
         for task in tasks:
-            if (task.get("userId") == eid and
-                task.get("completed")):
+            if (task.get("userId") == eid and task.get("completed")):
                 temp = {}
                 temp["task"] = task.get("title")
                 temp["completed"] = task.get("completed")
