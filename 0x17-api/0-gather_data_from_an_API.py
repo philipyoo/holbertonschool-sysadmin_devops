@@ -26,4 +26,4 @@ if __name__ == "__main__":
           .format(name, len(done_tasks), total_tasks))
 
     for item in done_tasks:
-        print("\t{}".format(item))
+        print("\t {}".format(item))
