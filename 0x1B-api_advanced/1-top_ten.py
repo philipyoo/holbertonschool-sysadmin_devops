@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 import requests
 
+
 def top_ten(subreddit):
     """ GET subreddit top 10 hot posts """
     url = "https://www.reddit.com/r/{}/hot.json?limit=10".format(subreddit)
