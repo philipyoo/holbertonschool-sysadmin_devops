@@ -98,7 +98,7 @@ Exercise 19:
   The above will return message "Holberton data" for any offset 0 "HOLBERTON" matches.
   A cool thing to note is that the `file` command is compiling and running the magic file. So there is no need to compile to magic "permanently".
   NOTE: Compiling a magic source file:
-  $ file -C -m filename.mgc
-  This produces the comiled magic file.
-  $ file -i -m filename.mgc *
+  $ file -C -m <filename>.mgc
+  This produces the compiled magic file.
+  $ file -i -m <filename>.mgc *
   This allows you to use the compiled file by specifying its name using the -m switch again.
